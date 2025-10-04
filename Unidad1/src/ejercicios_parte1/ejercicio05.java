@@ -1,8 +1,8 @@
-package exercise05;
+package ejercicios_parte1;
 
 import java.util.Scanner;
 
-public class Exercise05 {
+public class ejercicio05 {
 
 	public static void main(String[] args) {
 		//Declaramos las variables

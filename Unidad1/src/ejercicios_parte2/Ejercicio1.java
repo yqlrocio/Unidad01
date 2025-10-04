@@ -24,7 +24,7 @@ public static void main(String[] args) {
 		    
 		    
 		    // Calcular la aproximación 
-		    numeroEntero = (int) (numeroDecimal + 0.5);
+		    numeroEntero = (int) (numeroDecimal + decimal);
 		    
 		    System.out.println("El número redondeado es:" + numeroEntero);
 		    numeroEntero = reader.nextInt(); 

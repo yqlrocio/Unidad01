@@ -1,8 +1,8 @@
-package exercise03;
+package ejercicios_parte1;
 
 import java.util.Scanner;
 
-public class Exercise03 {
+public class ejercicio03 {
 
 	public static void main(String[] args) {
 		// Variable the actual year

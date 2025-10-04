@@ -6,7 +6,7 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 		// Crear variable 
-		int descuento; 
+		double conDescuento; 
 		int EI;  
 		int EA; 
 		double a= 15.50;
@@ -14,7 +14,6 @@ public class Ejercicio7 {
 		double sumaEI;
 		double sumaEA;
 		double sumaTotal;
-		double descuento1;
 		
 		// Crear Scanner
 		Scanner reader = new Scanner(System.in);
@@ -30,10 +29,10 @@ public class Ejercicio7 {
 		sumaEI = (EI * a); 
 		sumaEA = (EA * b);
 		sumaTotal = (sumaEI + sumaEA);
-		descuento1 = (sumaTotal >= 100) ? sumaTotal - (sumaTotal * 0.05) : sumaTotal;
+		conDescuento = (sumaTotal >= 100) ? sumaTotal - (sumaTotal * 0.05) : sumaTotal;
 		
 		//Mostar al usuario el precio total de su compra con el descuento en caso de compra superior a 100€
-		System.out.println("Tu compra total es:" + descuento1);
+		System.out.println("Tu compra total es:" + conDescuento);
 		
 		// Cerrar Scanner
 		reader.close();
