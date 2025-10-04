@@ -2,7 +2,7 @@ package ejercicios_parte2;
 
 import java.util.Scanner;
 
-public class Ejercicio3ConTernario {
+public class Ejercicio03ConTernario {
 
 	public static void main(String[] args) {
 	

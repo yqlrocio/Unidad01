@@ -2,7 +2,7 @@ package ejercicios_parte2;
 
 import java.util.Scanner;
 
-public class Ejercicio8 {
+public class Ejercicio08 {
 
 	public static void main(String[] args) {
 		// Crear variable 
